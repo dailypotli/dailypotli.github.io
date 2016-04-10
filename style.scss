@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: #eee;
+	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $fff;
+  color: $darkGray;
 }
 
 .container {
@@ -151,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
@@ -165,10 +165,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
+  width: 200px;
+  
   @include mobile {
     float: none;
     display: block;
